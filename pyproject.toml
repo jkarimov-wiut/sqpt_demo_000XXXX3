@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqpt_demo_000XXXX3"
+version = "0.1.1"
+description = "Demo seminar Python package for CI pipeline"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  { name = "sqpt tutor" }
+]
+
+[tool.setuptools]
+packages = ["app"]
